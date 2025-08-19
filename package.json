@@ -1,0 +1,24 @@
+{
+  "name": "audit-storage",
+  "version": "1.0.0",
+  "description": "CLI to audit localStorage usage and migration to backend",
+  "bin": {
+    "audit-storage": "./bin/audit-storage.js"
+  },
+  "scripts": {
+    "test": "node ./bin/audit-storage.js run"
+  },
+  "keywords": [
+    "security",
+    "localStorage",
+    "audit",
+    "cli"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "fs-extra": "^11.0.0",
+    "glob": "^8.0.0",
+    "open": "^8.4.0"
+  }
+}

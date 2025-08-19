@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Artifacts
+dist/
+build/
+coverage/
+
+# Reportes locales (opcional)
+audit-storage-report/
