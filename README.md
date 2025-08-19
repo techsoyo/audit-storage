@@ -5,9 +5,12 @@
 - 📊 Generar un informe web claro (¡hasta para no técnicos!)
 - ✅ Verificar que los datos del usuario ahora se guardan en backend
 - 🚀 Ejecutar todo con un solo comando: 
-`npx audit-storage run`
+
+`npx audit-storage run --mode=light`   # solo análisis estático
+`npx audit-storage run --mode=deep`    # con pruebas de API (opcional)
 
 Perfecta para auditorías, migraciones y asegurar buenas prácticas de seguridad.
+Esta herramienta detecta uso de localStorage y estructura de backend. No reemplaza pruebas de seguridad completas.
 
 
 ## 🚀 Instalación
