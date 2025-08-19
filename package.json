@@ -2,6 +2,7 @@
   "name": "audit-storage",
   "version": "1.0.0",
   "description": "CLI to audit localStorage usage and migration to backend",
+  "type": "module",
   "bin": {
     "audit-storage": "./bin/audit-storage.js"
   },
